@@ -1,0 +1,91 @@
+table {
+  	width:100%;
+  	display: block;
+    overflow-x: auto;
+    border-collapse: collapse;
+}
+th, td {
+	border: 1px solid #2c3e50;
+}
+th, td {
+	padding: 10px;
+	text-align: left;
+}
+table td{
+	background-color: #fff;
+	color:#34495e;
+}
+table th {
+  background-color: #2c3e50;
+  color: white;
+}
+
+.container{
+	width:100%;
+	max-width: 800px;
+	margin:0 auto 0 auto;
+}
+
+.container .head h1{
+	font-size: 40px;
+	color:#fff;
+}
+
+/*contacts section*/
+.container .contents{
+	background-color:#fff;
+	width:100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.container .contents h1{
+	font-size: 30px;
+	color:#2c3e50;
+	padding-left:10px;
+}
+.container .contents ul{
+	color:#2c3e50;
+	font-size: 14px;
+}
+.container .contents li{
+	margin-top:5px;
+}
+.container .contents a{
+	color:#2c3e50;
+	text-decoration: none;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.container .contents a:hover{
+	color:#000;
+	text-decoration: underline;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.container .contents hr{
+	height: 3px;
+    border: 0;
+    border-top: 3px solid #2c3e50;
+    margin:0 10px 0 10px;
+}
+/*end of contacts section*/
+
+.container .Authentication,.Requests,.News,.Posts,.Users,.NotificationsAPI{
+	padding-left:10px;
+	padding-right:10px;
+}
+.container .Authentication h1 , .Requests h1 ,.News h1,.Posts h1,.Users h1,.NotificationsAPI h1{
+	font-size: 30px;
+	color:#fff;
+}
+.container .Authentication h2 , .Requests h2,.News h2,.Posts h2,.Users h2,.NotificationsAPI h2{
+	font-size: 20px;
+	color:#fff;
+}
+.container .Authentication p , .Requests p ,.News p ,.Posts p,.Users p,.NotificationsAPI p{
+	color:#fff;
+}
